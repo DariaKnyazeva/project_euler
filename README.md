@@ -6,3 +6,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 3. Largest prime factor	
 4. Largest palindrome product
 5. Smallest multiple
+6. Sum square difference
