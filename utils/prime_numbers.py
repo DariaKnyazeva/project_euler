@@ -27,7 +27,7 @@ def primes(limit):
     while numbers:
         x = numbers.pop(0)
         yield x
-        sieved = set(range(x, limit + 1, x))
+        sieved = set(range(x * x, limit + 1, x))
         numbers = list(set(numbers) - sieved)
         numbers.sort()
 
@@ -38,7 +38,7 @@ class PrimeTest(unittest.TestCase):
         self.assertTrue(is_prime(19))
 
     def test_primes(self):
-        self.assertEquals(list(primes(25)), [2, 3, 5, 7, 11, 13, 17, 19, 23])
+        self.assertEqual(list(primes(25)), [2, 3, 5, 7, 11, 13, 17, 19, 23])
 
 
 # unittest.main()
