@@ -23,13 +23,11 @@ def primes(limit):
 
     @param limit: int
     """
-    numbers = list(range(2, limit + 1))
-    while numbers:
-        x = numbers.pop(0)
-        yield x
-        sieved = set(range(x * x, limit + 1, x))
-        numbers = list(set(numbers) - sieved)
-        numbers.sort()
+    multiples = set()
+    for i in range(2, limit + 1):
+        if i not in multiples:
+            yield i
+            multiples.update(range(i * i, limit + 1, i))
 
 
 class PrimeTest(unittest.TestCase):
