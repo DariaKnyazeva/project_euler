@@ -11,3 +11,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 8. Largest product in a series
 9. Special Pythagorean triplet
 10. Summation of primes
+11. Largest product in a grid
