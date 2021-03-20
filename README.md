@@ -15,3 +15,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 12. Highly divisible triangular number
 13. Large sum: first 10 digits of the sum of the provided one-hundred 50-digit numbers
 14. Longest Collatz sequence
+15. Lattice paths
