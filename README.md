@@ -18,3 +18,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 15. Lattice paths
 16. Power digits sum
 17. Number letter counts
+18. Maximum path sum I
