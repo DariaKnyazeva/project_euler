@@ -19,3 +19,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 16. Power digits sum
 17. Number letter counts
 18. Maximum path sum I
+19. Counting Sundays
