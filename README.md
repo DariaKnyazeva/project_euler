@@ -1,24 +1,25 @@
 # project_euler
 Solving problems from [Project Euler](https://projecteuler.net/) in Python
 
-1. Multiples of 3 and 5	
-2. Even Fibonacci numbers	
-3. Largest prime factor	
-4. Largest palindrome product
-5. Smallest multiple
-6. Sum square difference
-7. 10001st prime
-8. Largest product in a series
-9. Special Pythagorean triplet
-10. Summation of primes
-11. Largest product in a grid
-12. Highly divisible triangular number
-13. Large sum: first 10 digits of the sum of the provided one-hundred 50-digit numbers
-14. Longest Collatz sequence
-15. Lattice paths
-16. Power digits sum
-17. Number letter counts
-18. Maximum path sum I
-19. Counting Sundays
-20. Factorial digit sum
-21. Amicable numbers
+1. [Multiples of 3 and 5](https://projecteuler.net/problem=1)
+2. [Even Fibonacci numbers](https://projecteuler.net/problem=2)
+3. [Largest prime factor](https://projecteuler.net/problem=3)
+4. [Largest palindrome product](https://projecteuler.net/problem=4)
+5. [Smallest multiple](https://projecteuler.net/problem=5)
+6. [Sum square difference](https://projecteuler.net/problem=6)
+7. [10001st prime](https://projecteuler.net/problem=7)
+8. [Largest product in a series](https://projecteuler.net/problem=8)
+9. [Special Pythagorean triplet](https://projecteuler.net/problem=9)
+10. [Summation of primes](https://projecteuler.net/problem=10)
+11. [Largest product in a grid](https://projecteuler.net/problem=11)
+12. [Highly divisible triangular number](https://projecteuler.net/problem=12)
+13. [Large sum](https://projecteuler.net/problem=13)
+14. [Longest Collatz sequence](https://projecteuler.net/problem=14)
+15. [Lattice paths](https://projecteuler.net/problem=15)
+16. [Power digits sum](https://projecteuler.net/problem=16)
+17. [Number letter counts](https://projecteuler.net/problem=17)
+18. [Maximum path sum I](https://projecteuler.net/problem=18)
+19. [Counting Sundays](https://projecteuler.net/problem=19)
+20. [Factorial digit sum](https://projecteuler.net/problem=20)
+21. [Amicable numbers](https://projecteuler.net/problem=21)
+22. [Names scores](https://projecteuler.net/problem=22)
