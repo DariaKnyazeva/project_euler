@@ -1,7 +1,6 @@
 """
 MAXIMUM PATH SUM I
 """
-import unittest
 
 
 def get_triangle_path_sum(triangle):
@@ -101,22 +100,6 @@ class Tree:
             return rs + root.data
         else:
             return ls + root.data
-
-
-class Problem18Test(unittest.TestCase):
-    def test_triangle_path(self):
-        triangle = [
-            [3, ],
-            [7, 4, ],
-            [2, 4, 6, ],
-            [8, 5, 9, 3, ],
-        ]
-
-        tree = Tree(triangle)
-        self.assertEqual(tree.max_path_sum(tree.root), 23)
-
-
-unittest.main()
 
 
 if __name__ == "__main__":

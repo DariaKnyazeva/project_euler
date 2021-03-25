@@ -2,7 +2,6 @@
 SPECIAL PYTHAGOREAN TRIPLET
 """
 import math
-import unittest
 
 
 def is_pythagorian(a, b, c):
@@ -32,14 +31,6 @@ def pythagorean_triplet(triplet_sum=36):
                     return a * b * c
             else:
                 continue
-
-
-class ProblemNineTest(unittest.TestCase):
-    def test_pythagorean_triplet(self):
-        self.assertEqual(pythagorean_triplet(triplet_sum=36), 1620)
-
-
-# unittest.main()
 
 
 if __name__ == "__main__":

@@ -1,7 +1,6 @@
 """
 LARGEST PALINDROME PRODUCT
 """
-import unittest
 
 
 def is_palindrom(number):
@@ -38,19 +37,6 @@ def palindrome_products(n_digits=2):
 def largest_palindrome(n_digits=2):
     return max(list(palindrome_products(n_digits=n_digits)))
 
-
-class PalindromTest(unittest.TestCase):
-    def test_is_palindrom(self):
-        self.assertTrue(is_palindrom(9009))
-        self.assertFalse(is_palindrom(9005))
-        self.assertTrue(is_palindrom(90109))
-        self.assertFalse(is_palindrom(90105))
-
-    def test_largest_palindrom(self):
-        self.assertEquals(largest_palindrome(n_digits=2), 9009)
-
-
-# unittest.main()
 
 if __name__ == "__main__":
     print(largest_palindrome(n_digits=3))

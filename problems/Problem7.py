@@ -1,7 +1,6 @@
 """
 10001st PRIME
 """
-import unittest
 from utils.prime_numbers import primes
 
 
@@ -20,14 +19,6 @@ def nth_prime(n):
             return prime_numbers[n - 1]
         limit += 1000
     return 2
-
-
-class ProblemSevenTest(unittest.TestCase):
-    def test_nth_prime(self):
-        self.assertEqual(nth_prime(6), 13)
-
-
-# unittest.main()
 
 
 if __name__ == "__main__":

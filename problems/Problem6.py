@@ -1,7 +1,6 @@
 """
 SUM SQUARE DIFFRENCE
 """
-import unittest
 
 
 def arithmetic_progression(a1, an, n):
@@ -26,13 +25,6 @@ def sum_square_difference(limit=10):
     ap = arithmetic_progression(1, limit, limit)
     return ap * ap - sum([i * i for i in range(1, limit + 1)])
 
-
-class ProbleSixTest(unittest.TestCase):
-    def test_sum_square_difference(self):
-        self.assertEqual(sum_square_difference(10), 2640)
-
-
-# unittest.main()
 
 if __name__ == "__main__":
     print(sum_square_difference(limit=100))

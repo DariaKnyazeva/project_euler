@@ -1,8 +1,6 @@
 """
 SUMMATION OF PRIMES
 """
-import unittest
-
 from utils.prime_numbers import primes
 
 
@@ -14,14 +12,6 @@ def prime_summation(limit):
     """
     numbers = list(primes(limit))
     return sum(numbers)
-
-
-class ProblemTenTest(unittest.TestCase):
-    def test_prime_summation(self):
-        self.assertEqual(prime_summation(limit=10), 17)
-
-
-# unittest.main()
 
 
 if __name__ == "__main__":

@@ -2,7 +2,6 @@
 SMALLEST MULTIPLE
 """
 from functools import reduce
-import unittest
 
 from utils.prime_numbers import primes
 
@@ -26,14 +25,6 @@ def smallest_multiply(limit=10):
         if len(divisions) == limit - 1:
             return num
 
-
-class ProblemFiveTest(unittest.TestCase):
-    def test_smallest_multiply(self):
-        self.assertEqual(smallest_multiply(10), 2520)
-        self.assertEqual(smallest_multiply(20), 232792560)
-
-
-# unittest.main()
 
 if __name__ == '__main__':
     print(smallest_multiply(limit=20))

@@ -2,7 +2,6 @@
 HIGHLY DIVISIBLE TRIANGULAR NUMBER
 """
 import math
-import unittest
 
 from utils.triangular_numbers import triangulars
 
@@ -48,18 +47,6 @@ def highly_divisible_triangular(divisors_count=5):
         if len(divisors(i)) > divisors_count:
             return i
     return None
-
-
-class ProblemTwelveTest(unittest.TestCase):
-
-    def test_get_divisors(self):
-        self.assertEqual(divisors(15), {1, 3, 5, 15})
-
-    def test_highly_divisible_triangular(self):
-        self.assertEqual(highly_divisible_triangular(5), 28)
-
-
-unittest.main()
 
 
 if __name__ == "__main__":

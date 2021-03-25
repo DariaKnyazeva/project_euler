@@ -2,7 +2,6 @@
 AMICABLE NUMBERS
 """
 import math
-import unittest
 
 
 def divisors_sum(number):
@@ -17,15 +16,6 @@ def divisors_sum(number):
             result.append(number // d)
         d += 1
     return sum(set(result))
-
-
-class Problem21Test(unittest.TestCase):
-    def test_divisors_sum(self):
-        self.assertEquals(divisors_sum(220), 284)
-        self.assertEquals(divisors_sum(284), 220)
-
-
-# unittest.main()
 
 
 if __name__ == "__main__":

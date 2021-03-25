@@ -1,7 +1,6 @@
 """
 LONGEST COLLATZ SEQUENCE
 """
-import unittest
 
 
 def collatz_sequence(start_number):
@@ -40,15 +39,6 @@ def longest_collatz_sequence(limit=1000000):
         if seq_len > max:
             max = seq_len
             print("{} seq is of lentgh {}".format(i, seq_len))
-
-
-class Problem14Test(unittest.TestCase):
-    def test_collatz_sequence(self):
-        self.assertEqual(list(collatz_sequence(13)),
-                         [13, 40, 20, 10, 5, 16, 8, 4, 2, 1])
-
-
-# unittest.main()
 
 
 if __name__ == "__main__":

@@ -2,7 +2,6 @@
 LARGEST PRODUCT IN A SERIES
 """
 from functools import reduce
-import unittest
 
 SERIES_1000 = """
     73167176531330624919225119674426574742355349194934
@@ -47,14 +46,6 @@ def largest_product_in_series(ajacent_digits_number=4, series=SERIES_1000):
     ajacent_numbers = [x for x in ajacent_numbers if '0' not in x]
     products = [reduce((lambda x, y: int(x) * int(y)), digits) for digits in ajacent_numbers]
     return max(products)
-
-
-class ProblemEightTest(unittest.TestCase):
-    def test_largest_product_in_series(self):
-        self.assertEqual(largest_product_in_series(ajacent_digits_number=4), 5832)
-
-
-# unittest.main()
 
 
 if __name__ == "__main__":
