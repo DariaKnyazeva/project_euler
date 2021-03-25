@@ -23,3 +23,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 20. [Factorial digit sum](https://projecteuler.net/problem=20)
 21. [Amicable numbers](https://projecteuler.net/problem=21)
 22. [Names scores](https://projecteuler.net/problem=22)
+23. [Non-abundant sums](https://projecteuler.net/problem=23)
