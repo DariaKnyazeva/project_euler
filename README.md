@@ -24,3 +24,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 21. [Amicable numbers](https://projecteuler.net/problem=21)
 22. [Names scores](https://projecteuler.net/problem=22)
 23. [Non-abundant sums](https://projecteuler.net/problem=23)
+24. [Lexicographic permutations](https://projecteuler.net/problem=24)
