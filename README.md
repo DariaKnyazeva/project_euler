@@ -26,3 +26,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 23. [Non-abundant sums](https://projecteuler.net/problem=23)
 24. [Lexicographic permutations](https://projecteuler.net/problem=24)
 25. [1000-digit Fibonacci number](https://projecteuler.net/problem=25)
+26. [Reciprocal cycles](https://projecteuler.net/problem=26)

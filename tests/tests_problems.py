@@ -13,6 +13,7 @@ from problems.Problem12 import divisors, highly_divisible_triangular
 from problems.Problem14 import collatz_sequence
 from problems.Problem18 import Tree
 from problems.Problem21 import divisors_sum
+from problems.Problem26 import decimal_repr
 
 
 class ProblemOneTest(unittest.TestCase):
@@ -33,7 +34,7 @@ class PalindromTest(unittest.TestCase):
         self.assertFalse(is_palindrom(90105))
 
     def test_largest_palindrom(self):
-        self.assertEquals(largest_palindrome(n_digits=2), 9009)
+        self.assertEqual(largest_palindrome(n_digits=2), 9009)
 
 
 class ProblemFiveTest(unittest.TestCase):
@@ -97,8 +98,21 @@ class Problem18Test(unittest.TestCase):
 
 class Problem21Test(unittest.TestCase):
     def test_divisors_sum(self):
-        self.assertEquals(divisors_sum(220), 284)
-        self.assertEquals(divisors_sum(284), 220)
+        self.assertEqual(divisors_sum(220), 284)
+        self.assertEqual(divisors_sum(284), 220)
+
+
+class Problem26Test(unittest.TestCase):
+    def test_decimal_repr(self):
+        self.assertEqual(decimal_repr(1, 2), "0.5")
+        self.assertEqual(decimal_repr(1, 4), "0.25")
+        self.assertEqual(decimal_repr(1, 8), "0.125")
+        self.assertEqual(decimal_repr(1, 3), "0.(3)")
+        self.assertEqual(decimal_repr(1, 6), "0.1(6)")
+        self.assertEqual(decimal_repr(1, 7), "0.(142857)")
+        self.assertEqual(decimal_repr(1, 64), "0.015625")
+        self.assertEqual(decimal_repr(1, 999, min_cycle_len=2), "0.(001)")
+        self.assertEqual(decimal_repr(1, 29, min_cycle_len=6), "0.(0344827586206896551724137931)")
 
 
 unittest.main()
