@@ -14,6 +14,7 @@ from problems.Problem14 import collatz_sequence
 from problems.Problem18 import Tree
 from problems.Problem21 import divisors_sum
 from problems.Problem26 import decimal_repr
+from problems.Problem28 import spiral_diagonals
 
 
 class ProblemOneTest(unittest.TestCase):
@@ -113,6 +114,12 @@ class Problem26Test(unittest.TestCase):
         self.assertEqual(decimal_repr(1, 64), "0.015625")
         self.assertEqual(decimal_repr(1, 999, min_cycle_len=2), "0.(001)")
         self.assertEqual(decimal_repr(1, 29, min_cycle_len=6), "0.(0344827586206896551724137931)")
+
+
+class Problem28Test(unittest.TestCase):
+    def test_spiral_diagonals(self):
+        self.assertEqual(25, spiral_diagonals(3))
+        self.assertEqual(101, spiral_diagonals(5))
 
 
 unittest.main()
