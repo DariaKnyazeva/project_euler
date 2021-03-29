@@ -27,3 +27,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 24. [Lexicographic permutations](https://projecteuler.net/problem=24)
 25. [1000-digit Fibonacci number](https://projecteuler.net/problem=25)
 26. [Reciprocal cycles](https://projecteuler.net/problem=26)
+27. [Quadratic primes](https://projecteuler.net/problem=27)
