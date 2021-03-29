@@ -65,9 +65,7 @@ if __name__ == "__main__":
     limit = 28124
     abundant_nums = list(abundants(limit))
     print(datetime.datetime.now())
-    ab_sums = ([i[0] + i[1] for i in itertools.combinations(abundant_nums, 2)])
-    ab_doubles = [i * 2 for i in abundant_nums if i < limit / 2]
-    ab_sums.extend(ab_doubles)
+    ab_sums = ([i[0] + i[1] for i in itertools.product(abundant_nums, repeat=2)])
     non_ab_sums = set(range(1, limit)).difference(set(ab_sums))
-    print(sum(non_ab_sums))
+    print(sum(non_ab_sums))  # 4179871
     print(datetime.datetime.now())
