@@ -30,3 +30,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 27. [Quadratic primes](https://projecteuler.net/problem=27)
 28. [Number spiral diagonals](https://projecteuler.net/problem=28)
 29. [Distinct powers](https://projecteuler.net/problem=29)
+30. [Digit fifth powers](https://projecteuler.net/problem=30)
