@@ -32,3 +32,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 29. [Distinct powers](https://projecteuler.net/problem=29)
 30. [Digit fifth powers](https://projecteuler.net/problem=30)
 31. [Coin sums](https://projecteuler.net/problem=31)
+32. [Pandigital products](https://projecteuler.net/problem=32)

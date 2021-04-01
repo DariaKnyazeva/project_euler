@@ -15,6 +15,7 @@ from problems.Problem18 import Tree
 from problems.Problem21 import divisors_sum
 from problems.Problem26 import decimal_repr
 from problems.Problem28 import spiral_diagonals
+from problems.Problem32 import is_pandigital
 
 
 class ProblemOneTest(unittest.TestCase):
@@ -120,6 +121,12 @@ class Problem28Test(unittest.TestCase):
     def test_spiral_diagonals(self):
         self.assertEqual(25, spiral_diagonals(3))
         self.assertEqual(101, spiral_diagonals(5))
+
+
+class Problem32Test(unittest.TestCase):
+    def test_is_pandigital(self):
+        self.assertFalse(is_pandigital(234))
+        self.assertTrue(is_pandigital(24315, limit=5))
 
 
 unittest.main()
