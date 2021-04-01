@@ -33,4 +33,5 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 30. [Digit fifth powers](https://projecteuler.net/problem=30)
 31. [Coin sums](https://projecteuler.net/problem=31)
 32. [Pandigital products](https://projecteuler.net/problem=32)
-33. [Digit cancelling fractions](ttps://projecteuler.net/problem=33)
+33. [Digit cancelling fractions](https://projecteuler.net/problem=33)
+34. [Digit factorials](https://projecteuler.net/problem=34)
