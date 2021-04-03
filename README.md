@@ -35,3 +35,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 32. [Pandigital products](https://projecteuler.net/problem=32)
 33. [Digit cancelling fractions](https://projecteuler.net/problem=33)
 34. [Digit factorials](https://projecteuler.net/problem=34)
+35. [Circular primes](https://projecteuler.net/problem=35)
