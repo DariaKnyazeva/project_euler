@@ -16,6 +16,7 @@ from problems.Problem21 import divisors_sum
 from problems.Problem26 import decimal_repr
 from problems.Problem28 import spiral_diagonals
 from problems.Problem32 import is_pandigital
+from problems.Problem36 import to_binary
 
 
 class ProblemOneTest(unittest.TestCase):
@@ -127,6 +128,13 @@ class Problem32Test(unittest.TestCase):
     def test_is_pandigital(self):
         self.assertFalse(is_pandigital(234))
         self.assertTrue(is_pandigital(24315, limit=5))
+
+
+class Problem36Test(unittest.TestCase):
+    def test_to_binary(self):
+        self.assertEqual(to_binary(5), "101")
+        self.assertEqual(to_binary(46), "101110")
+        self.assertEquals(to_binary(585), "1001001001")
 
 
 unittest.main()

@@ -36,3 +36,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 33. [Digit cancelling fractions](https://projecteuler.net/problem=33)
 34. [Digit factorials](https://projecteuler.net/problem=34)
 35. [Circular primes](https://projecteuler.net/problem=35)
+36. [Double-base palindromes](https://projecteuler.net/problem=36)
