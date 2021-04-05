@@ -39,3 +39,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 36. [Double-base palindromes](https://projecteuler.net/problem=36)
 37. [Truncatable primes](https://projecteuler.net/problem=37)
 38. [Pandigital multiples](https://projecteuler.net/problem=38)
+39. [Integer right triangles](https://projecteuler.net/problem=39)
