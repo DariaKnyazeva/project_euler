@@ -1,22 +1,22 @@
 import unittest
 
-from problems.Problem1 import multipliers_sum
-from problems.Problem3 import largest_prime_factor
-from problems.Problem4 import is_palindrom, largest_palindrome
-from problems.Problem5 import smallest_multiply
-from problems.Problem6 import sum_square_difference
-from problems.Problem7 import nth_prime
-from problems.Problem8 import largest_product_in_series
-from problems.Problem9 import pythagorean_triplet
-from problems.Problem10 import prime_summation
-from problems.Problem12 import divisors, highly_divisible_triangular
-from problems.Problem14 import collatz_sequence
-from problems.Problem18 import Tree
-from problems.Problem21 import divisors_sum
-from problems.Problem26 import decimal_repr
-from problems.Problem28 import spiral_diagonals
-from problems.Problem32 import is_pandigital
-from problems.Problem36 import to_binary
+from problems.p001 import multipliers_sum
+from problems.p003 import largest_prime_factor
+from problems.p004 import is_palindrom, largest_palindrome
+from problems.p005 import smallest_multiply
+from problems.p006 import sum_square_difference
+from problems.p007 import nth_prime
+from problems.p008 import largest_product_in_series
+from problems.p009 import pythagorean_triplet
+from problems.p010 import prime_summation
+from problems.p012 import divisors, highly_divisible_triangular
+from problems.p014 import collatz_sequence
+from problems.p018 import Tree
+from problems.p021 import divisors_sum
+from problems.p026 import decimal_repr
+from problems.p028 import spiral_diagonals
+from problems.p032 import is_pandigital
+from problems.p036 import to_binary
 
 
 class ProblemOneTest(unittest.TestCase):
@@ -134,7 +134,7 @@ class Problem36Test(unittest.TestCase):
     def test_to_binary(self):
         self.assertEqual(to_binary(5), "101")
         self.assertEqual(to_binary(46), "101110")
-        self.assertEquals(to_binary(585), "1001001001")
+        self.assertEqual(to_binary(585), "1001001001")
 
 
 unittest.main()
