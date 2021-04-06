@@ -42,4 +42,5 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 39. [Integer right triangles](https://projecteuler.net/problem=39)
 40. [Champernowne's constant](https://projecteuler.net/problem=40)
 41. [Pandigital prime](https://projecteuler.net/problem=41)
-42. [Coded triangle numbers]()(https://projecteuler.net/problem=42)
+42. [Coded triangle numbers](https://projecteuler.net/problem=42)
+43. [Sub-string divisibility](https://projecteuler.net/problem=43)
