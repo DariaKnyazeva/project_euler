@@ -41,3 +41,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 38. [Pandigital multiples](https://projecteuler.net/problem=38)
 39. [Integer right triangles](https://projecteuler.net/problem=39)
 40. [Champernowne's constant](https://projecteuler.net/problem=40)
+41. [Pandigital prime](https://projecteuler.net/problem=41)
