@@ -16,6 +16,7 @@ from problems.p021 import divisors_sum
 from problems.p026 import decimal_repr
 from problems.p028 import spiral_diagonals
 from problems.p036 import to_binary
+from problems.p042 import word_to_number
 
 
 class ProblemOneTest(unittest.TestCase):
@@ -128,6 +129,11 @@ class Problem36Test(unittest.TestCase):
         self.assertEqual(to_binary(5), "101")
         self.assertEqual(to_binary(46), "101110")
         self.assertEqual(to_binary(585), "1001001001")
+
+
+class Problem42Test(unittest.TestCase):
+    def test_word_to_number(self):
+        self.assertEqual(word_to_number("SKY"), 19 + 11 + 25)
 
 
 unittest.main()
