@@ -45,3 +45,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 42. [Coded triangle numbers](https://projecteuler.net/problem=42)
 43. [Sub-string divisibility](https://projecteuler.net/problem=43)
 44. [Pentagon numbers](https://projecteuler.net/problem=44)
+45. [Triangular, pentagonal, and hexagonal](https://projecteuler.net/problem=45)
