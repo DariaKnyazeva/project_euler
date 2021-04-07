@@ -46,3 +46,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 43. [Sub-string divisibility](https://projecteuler.net/problem=43)
 44. [Pentagon numbers](https://projecteuler.net/problem=44)
 45. [Triangular, pentagonal, and hexagonal](https://projecteuler.net/problem=45)
+46. [Goldbach's other conjecture](https://projecteuler.net/problem=46)
