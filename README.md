@@ -50,3 +50,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 47. [Distinct primes factors](https://projecteuler.net/problem=47)
 48. [Self powers](https://projecteuler.net/problem=48)
 49. [Prime permutations](https://projecteuler.net/problem=49)
+50. [Consecutive prime sum](https://projecteuler.net/problem=50)
