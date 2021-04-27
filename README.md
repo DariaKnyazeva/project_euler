@@ -55,3 +55,5 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 52. [Permuted multiples](https://projecteuler.net/problem=52)
 53. [Combinatoric selections](https://projecteuler.net/problem=53)
 54. [Poker hands](https://projecteuler.net/problem=53)
+55. [Lychrel numbers](https://projecteuler.net/problem=54)
+

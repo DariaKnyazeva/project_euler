@@ -15,12 +15,7 @@ def is_palindrom(number):
     i. e. reads the same both ways
     """
     number = str(number)
-    middle_index = int(len(number) / 2)
-    if len(number) % 2 == 0:
-        second_half = number[middle_index:]
-    else:
-        second_half = number[middle_index + 1:]
-    return number[:middle_index] == second_half[::-1]
+    return number == number[::-1]
 
 
 def palindrome_products(n_digits=2):
