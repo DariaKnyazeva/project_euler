@@ -32,9 +32,10 @@ How many Lychrel numbers are there below ten-thousand?
 NOTE: Wording was modified slightly on 24 April 2007 to emphasise
 the theoretical nature of Lychrel numbers.
 """
+import asyncio
 
 
-def is_palindrom(number):
+async def is_palindrom(number):
     """
     Returns True if the number is palindrom,
     i. e. reads the same both ways
@@ -43,27 +44,35 @@ def is_palindrom(number):
     return number == number[::-1]
 
 
-def reverse_add(n):
+async def reverse_add(n):
     return n + int(str(n)[::-1])
+
+
+async def is_lychrel(x, max_iter=50):
+    iter = 0
+    if await is_palindrom(x):
+        x = await reverse_add(x)
+        iter = 1
+    while not await is_palindrom(x):
+        x = await reverse_add(x)
+        iter += 1
+        if iter > max_iter:
+            return True
+    return False
+
+
+async def main():
+    answer = 0
+    for x in range(1, 10_000):
+        lychrel = await is_lychrel(x)
+        if lychrel:
+            answer += 1
+    return answer
 
 
 if __name__ == "__main__":
     print(__doc__)
     print("*" * 65)
 
-    max_iter = 50
-
-    answer = 0
-    for x in range(1, 10_000):
-        # print(x)
-        iter = 0
-        if is_palindrom(x):
-            x = reverse_add(x)
-            iter = 1
-        while not is_palindrom(x):
-            x = reverse_add(x)
-            iter += 1
-            if iter > max_iter:
-                answer += 1
-                break
-    print(answer)
+    res = asyncio.run(main())
+    print(res)
