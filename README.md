@@ -54,6 +54,8 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 51. [Prime digit replacements](https://projecteuler.net/problem=51)
 52. [Permuted multiples](https://projecteuler.net/problem=52)
 53. [Combinatoric selections](https://projecteuler.net/problem=53)
-54. [Poker hands](https://projecteuler.net/problem=53)
-55. [Lychrel numbers](https://projecteuler.net/problem=54)
+54. [Poker hands](https://projecteuler.net/problem=54)
+55. [Lychrel numbers](https://projecteuler.net/problem=55)
+56. [Powerful digit sum](https://projecteuler.net/problem=56)
+
 
