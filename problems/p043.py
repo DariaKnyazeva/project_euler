@@ -34,7 +34,8 @@ if __name__ == "__main__":
         7: 17,
     }
     answer = 0
-    numbers = pandigitats(10, zero_included=True, convert_to_int=False)
+    numbers = pandigitats(10, zero_included=True)
+    numbers = [str(i) for i in numbers]
 
     for n in numbers:
         if n[0] == '0':

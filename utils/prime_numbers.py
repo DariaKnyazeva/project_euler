@@ -1,7 +1,8 @@
 import math
+from typing import Generator, List, Set
 
 
-def is_prime(number):
+def is_prime(number: int) -> bool:
     """
     Returns True if the number is prime, False otherwise.
     """
@@ -15,7 +16,7 @@ def is_prime(number):
     return True
 
 
-def primes(limit):
+def primes(limit: int) -> Generator[int, None, None]:
     """
     Returns generator of prime numbers below specified limit
     using Eratosthenes Sieve algorithm
@@ -29,7 +30,21 @@ def primes(limit):
             multiples.update(range(i * i, limit + 1, i))
 
 
-def rotation(n):
+def write_to_file_primes_below(limit: int) -> None:
+    numbers = primes(limit)
+    filepath = f"data/primes_{limit}.txt"
+    with open(filepath, "w") as f:
+        for n in numbers:
+            f.write(f"{str(n)}\n")
+
+
+def read_primes_from_file(limit: int) -> List[int]:
+    filepath = f"data/primes_{limit}.txt"
+    with open(filepath, "r") as f:
+        return [int(n) for n in f.readlines()]
+
+
+def rotation(n: int) -> Set[int]:
     """
     Return rotations of digits for the number n.
 
@@ -45,7 +60,7 @@ def rotation(n):
     return rotations
 
 
-def circular_primes(limit):
+def circular_primes(limit: int) -> Generator[int, None, None]:
     """
     Returns generator of circular primes below limit.
 

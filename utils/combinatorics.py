@@ -1,7 +1,7 @@
 import math
 
 
-def c_n_k(n, k):
+def c_n_k(n: int, k: int) -> float:
     """
     Returns number of combinations of n by k
     """
