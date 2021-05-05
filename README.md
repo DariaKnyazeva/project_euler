@@ -57,5 +57,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 54. [Poker hands](https://projecteuler.net/problem=54)
 55. [Lychrel numbers](https://projecteuler.net/problem=55)
 56. [Powerful digit sum](https://projecteuler.net/problem=56)
-
-
+57. [Square root convergents](https://projecteuler.net/problem=57)
