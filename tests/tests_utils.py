@@ -22,6 +22,9 @@ class PrimeTest(unittest.TestCase):
     def test_primes(self):
         self.assertEqual(list(primes(25)), [2, 3, 5, 7, 11, 13, 17, 19, 23])
 
+    def test_primes_include_limit(self):
+        self.assertEqual(list(primes(11)), [2, 3, 5, 7, 11])
+
 
 class TriangularTest(unittest.TestCase):
     def test_triangulars(self):
