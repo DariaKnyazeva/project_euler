@@ -60,3 +60,4 @@ Solving problems from [Project Euler](https://projecteuler.net/) in Python
 57. [Square root convergents](https://projecteuler.net/problem=57)
 58. [Spiral primes](https://projecteuler.net/problem=58)
 59. [XOR decryption](https://projecteuler.net/problem=59)
+60. [Prime pair sets](https://projecteuler.net/problem=60)
